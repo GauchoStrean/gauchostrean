@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Logo LEON">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#292c31"/>
+      <stop offset="1" stop-color="#111317"/>
+    </linearGradient>
+    <linearGradient id="disc" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e9edf2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#000000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="84" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="207" fill="url(#disc)" filter="url(#shadow)"/>
+  <path d="M184 126 Q184 118 194 118 H248 Q259 118 258 130 L237 293 H363 Q375 293 372 307 L364 359 Q362 371 349 371 H174 Q150 371 154 345 L184 126Z" fill="#17191d"/>
+</svg>

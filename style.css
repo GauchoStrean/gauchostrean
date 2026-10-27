@@ -9,3 +9,11 @@ main{max-width:1120px;margin:auto;padding:40px 24px 72px}.panel,.link{background
 @media(max-width:380px){.topbar{padding:0 15px}.brand{font-size:16px}.top-twitch{padding:13px}.main-logo{width:108px;height:108px}.intro{padding:24px}.link{gap:14px;padding:16px}.icon{width:58px;height:58px}.copy b{font-size:17px}.copy small{font-size:14px}}
 /* Logo original do SGJOGO na seção Casas */
 .icon.sg{overflow:hidden;padding:0;background:#111}.icon.sg img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
+
+/* Identidade visual da LEON: grafite, branco e prata, mantendo o layout do Hub */
+.leon-house{border-color:#dce2eb26;background:linear-gradient(135deg,#1a1c21f5,#101114fa)}
+.leon-house:hover{border-color:#dce2eb80;box-shadow:0 10px 32px #dce2eb0b}
+.leon-icon{overflow:hidden;padding:0;background:#191b20;border:1px solid #ffffff20;box-shadow:0 0 25px #dce2eb12}
+.leon-icon img{display:block;width:100%;height:100%;object-fit:cover}
+.leon-house .copy b{color:#f4f6f9}
+.leon-house .arrow{color:#c5ccd5}
